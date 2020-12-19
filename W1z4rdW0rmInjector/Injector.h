@@ -2,6 +2,7 @@
 #define _INJECTOR_H_
 
 #include <windows.h>
+#include <TlHelp32.h>
 #include <stdbool.h>
 
 /*
@@ -42,7 +43,7 @@ HANDLE find_process();
 * 
 * Returns: true if process is good
 */
-bool is_process_good(HANDLE process);
+bool is_process_good(PROCESSENTRY32 processEntry);
 
 
 /*

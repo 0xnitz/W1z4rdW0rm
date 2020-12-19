@@ -5,6 +5,6 @@
 
 #define SHOULD_DLL_INJECT (false);
 
-#define DLL_NAME ("W1z4rdW0rmDeployer.dll");
+#define DLL_NAME ("W1z4rdW0rm.dll");
 
 #endif
